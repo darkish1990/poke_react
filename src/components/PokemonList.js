@@ -1,9 +1,7 @@
 import React from "react";
 import "./PokemonList.css";
 export const PokemonList = ({ pokemon }) => {
-  pokemon.sort(function(a, b) {
-    return a.id - b.id;
-  });
+
   return (
     <div>
       {pokemon.map(p => (

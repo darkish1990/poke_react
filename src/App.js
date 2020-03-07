@@ -38,7 +38,10 @@ function App() {
     };
     onload();
   }, [currentPageUrl]);
-
+  
+  pokemon.sort(function(a, b) {
+    return a.id - b.id;
+  });
   const goToNextPage = () => {
     setCurrentPageUrl(nextPageUrl);
   };
