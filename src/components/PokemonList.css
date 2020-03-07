@@ -1,0 +1,19 @@
+.pokemon {
+  height: 180px;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 44px -6px rgba(0,0,0,0.75);
+  margin: 5px;
+  background-color: white;
+
+}
+
+
+.pokemon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

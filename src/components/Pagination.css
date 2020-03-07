@@ -1,0 +1,12 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 120px;
+}
